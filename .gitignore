@@ -1,0 +1,15 @@
+# executables
+*.exe
+
+# dll files
+*.dll
+
+# vscode
+.vscode/
+
+# build files
+*.o
+*.obj
+
+# logs
+*.txt
