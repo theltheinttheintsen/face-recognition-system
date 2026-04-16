@@ -1,0 +1,1 @@
+cp C:\msys64\mingw64\bin\*.dll C:\Users\thelt\OneDrive\Pictures\Desktop\360\cp /mingw64/bin/Qt6Test.dll /c/Users/thelt/OneDrive/Pictures/Desktop/360/
