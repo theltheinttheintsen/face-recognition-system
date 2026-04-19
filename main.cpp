@@ -31,10 +31,8 @@ void showPatientRecord(string searchName) {
     bool found = false;
     bool printLines = false;
 
-    // Print header
-    cout << "\n========================================" << endl;
+
     cout << "       PHARMACEUTICAL RECORDS           " << endl;
-    cout << "========================================" << endl;
 
     // Read file line by line
     while (getline(file, line)) {
@@ -47,7 +45,6 @@ void showPatientRecord(string searchName) {
 
         // Stop printing when we reach separator "---"
         if (line == "---" && printLines) {
-            cout << "========================================\n" << endl;
             printLines = false;
             break;
         }
@@ -61,7 +58,6 @@ void showPatientRecord(string searchName) {
     // If patient not found in file
     if (!found) {
         cout << "Patient \"" << searchName << "\" not found!" << endl;
-        cout << "========================================\n" << endl;
     }
 
     file.close();
